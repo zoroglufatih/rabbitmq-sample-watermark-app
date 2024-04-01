@@ -24,12 +24,10 @@
   <ItemGroup>
     <Folder Include="Services\" />
     <Folder Include="Views\Product\" />
-    <Folder Include="wwwroot\Images\" />
-    <Folder Include="wwwroot\Images\Watermarks\" />
     <Folder Include="BackgroundServices\" />
+    <Folder Include="wwwroot\Images\Watermarks\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\Images\" />
-    <Content Remove="wwwroot\Images\Watermarks\" />
   </ItemGroup>
 </Project>

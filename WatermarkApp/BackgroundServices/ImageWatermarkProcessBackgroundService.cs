@@ -65,7 +65,7 @@ namespace WatermarkApp.BackgroundServices
 
                 graphic.DrawString(siteName, font, brush, position);
 
-                img.Save("wwwroot/Images/Watermarks" + imageCreatedEvent.ImageName);
+                img.Save("wwwroot\\Images\\Watermarks\\" + imageCreatedEvent.ImageName);
 
                 img.Dispose();
                 graphic.Dispose();

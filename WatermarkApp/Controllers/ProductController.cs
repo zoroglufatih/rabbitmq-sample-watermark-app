@@ -67,7 +67,7 @@ namespace WatermarkApp.Controllers
                 var randomImageName = Guid.NewGuid() + Path.GetExtension(ImageFile.FileName);
 
 
-                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", randomImageName);
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images", randomImageName);
 
 
                 await using FileStream stream = new(path, FileMode.Create);
